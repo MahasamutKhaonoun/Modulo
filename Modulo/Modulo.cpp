@@ -11,12 +11,12 @@ int main()
 	{
 		if (scanf_s("%d", &num[i]) != 1)
 		{
-			printf("ERROR");
+			printf("Error");
 			return 1;
 		}
 		else if (num[i] < 0 || num[i] > 1000)
 		{
-			printf("ERROR");
+			printf("Error");
 			return 1;
 		}
 	}
